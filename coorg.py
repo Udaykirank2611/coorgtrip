@@ -7,8 +7,8 @@ def main():
     trip_start = datetime.datetime(2025, 3, 3, 19, 5)
     now = datetime.datetime.now()
     time_left = trip_start - now
-    st.subheader("⏳ Trip Countdown")
-    st.write(f"Time left: {time_left.days} days, {time_left.seconds//3600} hours, {(time_left.seconds//60)%60} minutes")
+    #st.subheader("⏳ Trip Countdown")
+    st.subheader(f"Time left: {time_left.days} days, {time_left.seconds//3600} hours, {(time_left.seconds//60)%60} minutes")
     
     st.subheader("🛤️ Travel Schedule")
     
