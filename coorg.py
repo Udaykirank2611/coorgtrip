@@ -5,7 +5,7 @@ def main():
     st.title("🌟 Mysore & Coorg Trip Plan 🏔️")
     st.write("Lets track our travel schedule and check off places as you visit them!")
     
-    st.subheader("🛤️ Travel Schedule (Chronological Order)")
+    st.subheader("🛤️ Travel Schedule")
     
     # Departure from Hyderabad
     st.markdown("### 🚆 Departure from Hyderabad")
