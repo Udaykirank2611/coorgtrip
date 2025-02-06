@@ -95,6 +95,7 @@ def main():
     st.markdown("🕒 Departure: **08-Mar-2025, 15:15**  ")
     st.markdown("🕒 Arrival: **09-Mar-2025, 05:40**  ")
     st.markdown("🎟️ Class: **SL**  | 💰 Cost: **₹438**")
+    st.markdown("### 📊 [Total Trip Expense Tracker](https://www.kittysplit.com/k/7YGBJEqe4yYoBI36H6CqXeCiibjl1uiY-2)")
     
     # Total Estimated Cost
     total_cost = 1155 + 438 + 160 + 160
