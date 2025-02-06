@@ -1,16 +1,22 @@
 import streamlit as st
+import datetime
 
 def main():
-    st.title("Mysore & Coorg Trip Planner")
-    st.write("Check off places as you visit them!")
+    st.title("🌟 Mysore & Coorg Trip Planner 🏔️")
+    st.write("Easily track your travel schedule and check off places as you visit them!")
     
-    st.subheader("Travel Details (Chronological Order)")
+    st.subheader("🛤️ Travel Schedule (Chronological Order)")
     
-    st.write("### Departure from Hyderabad")
-    st.write("**Train: Hyderabad to Mysore**")
-    st.write("Train 12785 KCG MYS SF EXP, Departure: 03-Mar-2025, 19:05, Arrival: 04-Mar-2025, 10:20, Class: 3A, Cost: ₹1155")
+    # Departure from Hyderabad
+    st.markdown("### 🚆 Departure from Hyderabad")
+    st.markdown("**Train: Hyderabad to Mysore**  ")
+    st.markdown("🚄 **12785 KCG MYS SF EXP**  ")
+    st.markdown("🕒 Departure: **03-Mar-2025, 19:05**  ")
+    st.markdown("🕒 Arrival: **04-Mar-2025, 10:20**  ")
+    st.markdown("🎟️ Class: **3A**  | 💰 Cost: **₹1155**")
     
-    st.write("### Day 1 - 4th March: Mysore Sightseeing")
+    # Day 1
+    st.markdown("### 🏰 Day 1 - 4th March: Mysore Sightseeing")
     mysore_places = [
         ("Mysore Palace", 100),
         ("Jaganmohan Palace", 20),
@@ -23,13 +29,17 @@ def main():
         ("Venugopalaswami Temple", 0)
     ]
     for place, fee in mysore_places:
-        st.checkbox(f"{place} - Entry Fee: ₹{fee}")
+        st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
     
-    st.write("### Travel: Mysore to Coorg")
-    st.write("**Bus: Mysore to Coorg**")
-    st.write("KSRTC Bus (Trip Code: 2300CBTMRC), Departure: 05-Mar-2025, 04:15, Arrival: Mercara Madikeri, Cost: ₹160")
+    # Travel to Coorg
+    st.markdown("### 🚌 Travel: Mysore to Coorg")
+    st.markdown("🚍 **KSRTC Bus (Trip Code: 2300CBTMRC)**  ")
+    st.markdown("🕒 Departure: **05-Mar-2025, 04:15**  ")
+    st.markdown("🕒 Arrival: **Mercara Madikeri**  ")
+    st.markdown("💰 Cost: **₹160**")
     
-    st.write("### Day 2 - 5th March: Coorg Exploration")
+    # Day 2
+    st.markdown("### 🌳 Day 2 - 5th March: Coorg Adventure")
     coorg_day2_places = [
         ("Dubare Elephant Camp", 50),
         ("River Rafting / Iruppu Falls", 0),
@@ -39,9 +49,10 @@ def main():
         ("Harangi Dam", 0)
     ]
     for place, fee in coorg_day2_places:
-        st.checkbox(f"{place} - Entry Fee: ₹{fee}")
+        st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
     
-    st.write("### Day 3 - 6th March: Coorg Peaks & Falls")
+    # Day 3
+    st.markdown("### ⛰️ Day 3 - 6th March: Peaks & Waterfalls")
     coorg_day3_places = [
         ("Mandalpatti Peak (Jeep Ride)", 1500),
         ("Abbey Falls", 10),
@@ -49,9 +60,10 @@ def main():
         ("Raja Seat (Sunset)", 20)
     ]
     for place, fee in coorg_day3_places:
-        st.checkbox(f"{place} - Entry Fee: ₹{fee}")
+        st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
     
-    st.write("### Day 4 - 7th March: Coorg Temples & Heritage")
+    # Day 4
+    st.markdown("### 🏛️ Day 4 - 7th March: Temples & Heritage")
     coorg_day4_places = [
         ("Talakaveri Temple", 0),
         ("Bhagandeshwara Temple (Triveni Sangamam)", 0),
@@ -63,15 +75,25 @@ def main():
         ("Chocolate Shop (Coorg Special)", 0)
     ]
     for place, fee in coorg_day4_places:
-        st.checkbox(f"{place} - Entry Fee: ₹{fee}")
+        st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
     
-    st.write("### Travel: Coorg to Mysore")
-    st.write("**Bus: Coorg to Mysore**")
-    st.write("KSRTC Bus (Trip Code: 0730MRCOTY), Departure: 08-Mar-2025, 07:30, Arrival: Mysore, Cost: ₹160")
+    # Travel Back to Mysore
+    st.markdown("### 🚌 Travel: Coorg to Mysore")
+    st.markdown("🚍 **KSRTC Bus (Trip Code: 0730MRCOTY)**  ")
+    st.markdown("🕒 Departure: **08-Mar-2025, 07:30**  ")
+    st.markdown("🕒 Arrival: **Mysore**  ")
+    st.markdown("💰 Cost: **₹160**")
     
-    st.write("### Travel: Mysore to Hyderabad")
-    st.write("**Train: Mysore to Hyderabad**")
-    st.write("Train 12786 KACHEGUDA EXP, Departure: 08-Mar-2025, 15:15, Arrival: 09-Mar-2025, 05:40, Class: SL, Cost: ₹438")
+    # Travel Back to Hyderabad
+    st.markdown("### 🚆 Travel: Mysore to Hyderabad")
+    st.markdown("🚄 **Train 12786 KACHEGUDA EXP**  ")
+    st.markdown("🕒 Departure: **08-Mar-2025, 15:15**  ")
+    st.markdown("🕒 Arrival: **09-Mar-2025, 05:40**  ")
+    st.markdown("🎟️ Class: **SL**  | 💰 Cost: **₹438**")
+    
+    # Total Estimated Cost
+    total_cost = 1155 + 438 + 160 + 160
+    st.markdown(f"### 💰 **Total Estimated Travel Cost: ₹{total_cost}**")
     
 if __name__ == "__main__":
     main()
