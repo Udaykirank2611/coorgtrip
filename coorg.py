@@ -2,8 +2,8 @@ import streamlit as st
 import datetime
 
 def main():
-    st.title("🌟 Mysore & Coorg Trip Planner 🏔️")
-    st.write("Easily track your travel schedule and check off places as you visit them!")
+    st.title("🌟 Mysore & Coorg Trip Plan 🏔️")
+    st.write("Lets track our travel schedule and check off places as you visit them!")
     
     st.subheader("🛤️ Travel Schedule (Chronological Order)")
     
@@ -93,7 +93,7 @@ def main():
     
     # Total Estimated Cost
     total_cost = 1155 + 438 + 160 + 160
-    st.markdown(f"### 💰 **Total Estimated Travel Cost: ₹{total_cost}**")
+    #st.markdown(f"### 💰 **Total Estimated Travel Cost: ₹{total_cost}**")
     
 if __name__ == "__main__":
     main()
