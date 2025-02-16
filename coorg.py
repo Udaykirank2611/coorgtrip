@@ -67,7 +67,7 @@ def main():
     # Day 3
     st.markdown("### ⛰️ Day 3 - 6th March: Peaks & Waterfalls")
     coorg_day3_places = [
-        ("Mandalpatti Peak (Jeep Ride) 5:00AM", 3600),
+        ("Mandalpatti Peak (Jeep Ride) 5:00AM", 3700),
         ("Abbey Falls 10:00AM", 10),
         ("Talakaveri Temple 11:50AM", 0),
         ("Bhagandeshwara Temple (Triveni Sangamam) 1:30PM", 0),
