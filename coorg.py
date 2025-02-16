@@ -28,7 +28,7 @@ def main():
         ("St. Philomena’s Church 3:00PM", 0),
         ("Karanji Lake 4:00PM", 50),
         ("Brindavan Gardens 5:00PM ", 50),
-        ("Venugopalaswami Temple", 0),
+        ("Venugopalaswami Temple 7:30PM", 0),
         ("Sand Museum", 60)
     ]
     for place, fee in mysore_places:
