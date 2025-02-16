@@ -27,9 +27,9 @@ def main():
         ("Jaganmohan Palace 12:50PM", 20),
         ("St. Philomena’s Church 3:00PM", 0),
         ("Karanji Lake 4:00PM", 50),
-        ("Brindavan Gardens 5:00PM ", 50),
-        ("Venugopalaswami Temple 7:30PM", 0),
-        ("Sand Museum", 60)
+        ("Sand Museum 5:15PM", 60),
+        ("Venugopalaswami Temple 6:40PM", 0),
+        ("Brindavan Gardens 7:30PM ", 50),
     ]
     for place, fee in mysore_places:
         st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
