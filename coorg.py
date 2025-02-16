@@ -38,8 +38,8 @@ def main():
     
     # Travel to Coorg
     st.markdown("### 🚌 Travel: Mysore to Coorg")
-    st.markdown("🚍 **KSRTC Bus (Trip Code: 2300CBTMRC)**  ")
-    st.markdown("🕒 Departure: **05-Mar-2025, 04:15**  ")
+    st.markdown("🚍 **KSRTC Bus (Trip Code: 0829MYSMNG)**  ")
+    st.markdown("🕒 Departure: **05-Mar-2025, 08:29**  ")
     st.markdown("🕒 Arrival: **Mercara Madikeri**  ")
     st.markdown("💰 Cost: **₹160**")
     
