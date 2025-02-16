@@ -48,9 +48,9 @@ def main():
     coorg_day2_places = [
         ("Madikeri Fort", 0),
         ("Madikeri Palace", 0),
+        ("Raja’s Tomb", 10),
         ("Museum", 10),
-        ("Raja Seat (Sunset)", 20),
-        ("Raja’s Tomb", 10)
+        ("Raja Seat (Sunset)", 20).
     ]
     for place, fee in coorg_day2_places:
         st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
