@@ -26,8 +26,8 @@ def main():
         ("Mysore Palace 11:50AM", 100),
         ("Jaganmohan Palace 12:50PM", 20),
         ("St. Philomena’s Church 3:00PM", 0),
-        ("Brindavan Gardens 4:00PM ", 50),
-        ("Karanji Lake 6:00PM", 50),
+        ("Karanji Lake 4:00PM", 50),
+        ("Brindavan Gardens 5:00PM ", 50),
         ("Venugopalaswami Temple", 0),
         ("Sand Museum", 60)
     ]
