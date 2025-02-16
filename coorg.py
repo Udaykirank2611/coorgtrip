@@ -46,11 +46,11 @@ def main():
     # Day 2
     st.markdown("### 🌳 Day 2 - 5th March: Coorg Adventure")
     coorg_day2_places = [
-        ("Madikeri Fort, 1:30", 0),
-        ("Madikeri Palace 2:30", 0),
-        ("Raja’s Tomb 3:30", 10),
-        ("Museum 4:30", 10),
-        ("Raja Seat (Sunset) 5:30", 20)
+        ("Madikeri Fort 1:30PM", 0),
+        ("Madikeri Palace 2:30PM", 0),
+        ("Raja’s Tomb 3:30PM", 10),
+        ("Museum 4:30PM", 10),
+        ("Raja Seat (Sunset) 5:30PM", 20)
     ]
     for place, fee in coorg_day2_places:
         st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
@@ -58,12 +58,12 @@ def main():
     # Day 3
     st.markdown("### ⛰️ Day 3 - 6th March: Peaks & Waterfalls")
     coorg_day3_places = [
-        ("Mandalpatti Peak (Jeep Ride)", 1500),
-        ("Abbey Falls", 10),
-        ("Talakaveri Temple", 0),
-        ("Bhagandeshwara Temple (Triveni Sangamam)", 0),
-        ("Karike Waterfalls", 0),
-        ("Omkareshwar Temple", 0)
+        ("Mandalpatti Peak (Jeep Ride) 5:00AM", 1500),
+        ("Abbey Falls 10:00AM", 10),
+        ("Talakaveri Temple 11:50AM", 0),
+        ("Bhagandeshwara Temple (Triveni Sangamam) 1:30PM", 0),
+        ("Karike Waterfalls 3:30PM", 0),
+        ("Omkareshwar Temple 5:30PM", 0)
     ]
     for place, fee in coorg_day3_places:
         st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
@@ -71,11 +71,12 @@ def main():
     # Day 4
     st.markdown("### 🏛️ Day 4 - 7th March: Temples & Heritage")
     coorg_day4_places = [
-        ("Dubare Elephant Camp", 50),
-        ("River Rafting / Iruppu Falls", 0),
+        ("Dubare Elephant Camp 8:30AM", 50),
+        ("River Rafting / Iruppu Falls 10:30AM", 0),
+        ("Coffee plantation 12:30PM", 0),
         ("Chiklihole Reservoir (closes at 4 PM)", 0),
-        ("Nisargadhama", 20),
-        ("Golden Temple (Namdroling Monastery)", 0),
+        ("Nisargadhama 2:00PM", 20),
+        ("Golden Temple (Namdroling Monastery) 5:00PM", 0),
         ("Harangi Dam", 0),
         ("Chocolate Shop (Coorg Special)", 0)
     ]
