@@ -23,11 +23,11 @@ def main():
     # Day 1
     st.markdown("### 🏰 Day 1 - 4th March: Mysore Sightseeing")
     mysore_places = [
-        ("Mysore Palace", 100),
-        ("Jaganmohan Palace", 20),
-        ("St. Philomena’s Church", 0),
-        ("Brindavan Gardens", 50),
-        ("Karanji Lake", 50),
+        ("Mysore Palace 11:50AM", 100),
+        ("Jaganmohan Palace 12:50PM", 20),
+        ("St. Philomena’s Church 3:00PM", 0),
+        ("Brindavan Gardens 4:00PM ", 50),
+        ("Karanji Lake 6:00PM", 50),
         ("Venugopalaswami Temple", 0),
         ("Sand Museum", 60)
     ]
@@ -57,7 +57,7 @@ def main():
     # Day 3
     st.markdown("### ⛰️ Day 3 - 6th March: Peaks & Waterfalls")
     coorg_day3_places = [
-        ("Mandalpatti Peak (Jeep Ride) 5:00AM", 3500),
+        ("Mandalpatti Peak (Jeep Ride) 5:00AM", 3600),
         ("Abbey Falls 10:00AM", 10),
         ("Talakaveri Temple 11:50AM", 0),
         ("Bhagandeshwara Temple (Triveni Sangamam) 1:30PM", 0),
@@ -75,9 +75,9 @@ def main():
         ("Coffee plantation 12:30PM", 0),
         ("Nisargadhama 2:00PM", 20),
         ("Golden Temple (Namdroling Monastery) 5:00PM", 0),
+        ("Chocolate Shop (Coorg Special) 7:30PM", 0),
         ("Harangi Dam", 0),
-        ("Chiklihole Reservoir (closes at 4 PM)", 0),
-        ("Chocolate Shop (Coorg Special)", 0)
+        ("Chiklihole Reservoir (closes at 4 PM)", 0)
     ]
     for place, fee in coorg_day4_places:
         st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
@@ -86,7 +86,7 @@ def main():
     st.markdown("### 🚌 Travel: Coorg to Mysore")
     st.markdown("🚍 **KSRTC Bus (Trip Code: 0730MRCOTY)**  ")
     st.markdown("🕒 Departure: **08-Mar-2025, 07:30**  ")
-    st.markdown("🕒 Arrival: **Mysore**  ")
+    st.markdown("🕒 Arrival: **Mysore** 11:00AM")
     st.markdown("💰 Cost: **₹160**")
 
     
