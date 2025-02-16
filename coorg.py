@@ -26,10 +26,10 @@ def main():
         ("Mysore Palace", 100),
         ("Jaganmohan Palace", 20),
         ("St. Philomena’s Church", 0),
-        ("Sand Museum", 60),
         ("Brindavan Gardens", 50),
         ("Karanji Lake", 50),
-        ("Venugopalaswami Temple", 0)
+        ("Venugopalaswami Temple", 0),
+        ("Sand Museum", 60)
     ]
     for place, fee in mysore_places:
         st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
