@@ -49,7 +49,6 @@ def main():
         ("Madikeri Fort", 0),
         ("Madikeri Palace", 0),
         ("Museum", 10),
-        ("Omkareshwar Temple", 0),
         ("Raja Seat (Sunset)", 20),
         ("Raja’s Tomb", 10)
     ]
@@ -63,7 +62,8 @@ def main():
         ("Abbey Falls", 10),
         ("Talakaveri Temple", 0),
         ("Bhagandeshwara Temple (Triveni Sangamam)", 0),
-        ("Karike Waterfalls", 0)
+        ("Karike Waterfalls", 0),
+        ("Omkareshwar Temple", 0),
     ]
     for place, fee in coorg_day3_places:
         st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
