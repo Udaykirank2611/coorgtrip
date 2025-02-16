@@ -89,7 +89,7 @@ def main():
     st.markdown("🕒 Arrival: **Mysore**  ")
     st.markdown("💰 Cost: **₹160**")
     st.markdown("### 🏛️ Day 5 - 8th March: The Return")
-    coorg_day4_places = [
+    coorg_day5_places = [
         ("Sweet Shops", 0)
     ]
     # Travel Back to Hyderabad
