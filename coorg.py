@@ -57,7 +57,7 @@ def main():
     # Day 3
     st.markdown("### ⛰️ Day 3 - 6th March: Peaks & Waterfalls")
     coorg_day3_places = [
-        ("Mandalpatti Peak (Jeep Ride) 5:00AM", 1500),
+        ("Mandalpatti Peak (Jeep Ride) 5:00AM", 3500),
         ("Abbey Falls 10:00AM", 10),
         ("Talakaveri Temple 11:50AM", 0),
         ("Bhagandeshwara Temple (Triveni Sangamam) 1:30PM", 0),
@@ -73,10 +73,10 @@ def main():
         ("Dubare Elephant Camp 8:30AM", 50),
         ("River Rafting / Iruppu Falls 10:30AM", 0),
         ("Coffee plantation 12:30PM", 0),
-        ("Chiklihole Reservoir (closes at 4 PM)", 0),
         ("Nisargadhama 2:00PM", 20),
         ("Golden Temple (Namdroling Monastery) 5:00PM", 0),
         ("Harangi Dam", 0),
+        ("Chiklihole Reservoir (closes at 4 PM)", 0),
         ("Chocolate Shop (Coorg Special)", 0)
     ]
     for place, fee in coorg_day4_places:
@@ -88,10 +88,14 @@ def main():
     st.markdown("🕒 Departure: **08-Mar-2025, 07:30**  ")
     st.markdown("🕒 Arrival: **Mysore**  ")
     st.markdown("💰 Cost: **₹160**")
+
+    
     st.markdown("### 🏛️ Day 5 - 8th March: The Return")
     coorg_day5_places = [
         ("Sweet Shops", 0)
     ]
+    for place, fee in coorg_day5_places:
+        st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
     # Travel Back to Hyderabad
     st.markdown("### 🚆 Travel: Mysore to Hyderabad")
     st.markdown("🚄 **Train 12786 KACHEGUDA EXP**  ")
