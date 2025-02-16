@@ -3,11 +3,10 @@ import datetime
 
 def main():
     st.title("🌟 Mysore & Coorg Trip Plan 🏔️")
-    st.write("Lets track our travel schedule and check off places as you visit them!")
+    st.write("Let's track our travel schedule and check off places as you visit them!")
     trip_start = datetime.datetime(2025, 3, 3, 19, 5)
     now = datetime.datetime.now()
     time_left = trip_start - now
-    #st.subheader("⏳ Trip Countdown")
     st.subheader(f"Time left: {time_left.days} days, {time_left.seconds//3600} hours, {(time_left.seconds//60)%60} minutes")
     
     st.subheader("🛤️ Travel Schedule")
@@ -29,22 +28,33 @@ def main():
         ("Karanji Lake 4:00PM", 50),
         ("Sand Museum 5:15PM", 60),
         ("Venugopalaswami Temple 6:40PM", 0),
-        ("Brindavan Gardens 7:30PM ", 50),
+        ("Brindavan Gardens 7:30PM", 50),
     ]
     for place, fee in mysore_places:
         st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
     
-    # Travel to Coorg
+    # Day 2 - Chamundi Hill and Travel to Coorg
+    st.markdown("### 🌄 Day 2 - 5th March: Chamundi Hill & Travel to Coorg")
+    st.checkbox("✅ Chamundi Hill (Sunrise at 6:30AM) - Entry Fee: ₹0")
+    
     st.markdown("### 🚌 Travel: Mysore to Coorg")
     st.markdown("🚍 **KSRTC Bus (Trip Code: 0829MYSMNG)**  ")
     st.markdown("🕒 Departure: **05-Mar-2025, 08:29**  ")
     st.markdown("🕒 Arrival: **Mercara Madikeri, 11:29**  ")
     st.markdown("💰 Cost: **₹160**")
     
-    # Day 2
-    st.markdown("### 🌳 Day 2 - 5th March: Coorg Adventure")
+    # Hotel Check-in
+    st.markdown("### 🏨 Hotel Check-in")
+    st.markdown("🏠 **Treebo Elite Plaza**  ")
+    st.markdown("📍 **700 Mtrs From Madikeri Fort, No 14# Race course road Near LIC Office, Coorg**")
+    st.markdown("📅 **Check-in:** 5th March 2025, 12:00 PM  ")
+    st.markdown("📅 **Check-out:** 8th March 2025, 11:00 AM  ")
+    st.markdown("📞 **Contact:** 9731152789, 8277234040  ")
+    st.markdown("💰 **Cost:** ₹11800")
+    
+    # Coorg Adventure
+    st.markdown("### 🌳 Coorg Adventure - 5th March")
     coorg_day2_places = [
-        ("Chamundi Hill (Sunrise at 6:30AM)", 0),
         ("Madikeri Fort 1:30PM", 0),
         ("Madikeri Palace 2:30PM", 0),
         ("Raja’s Tomb 3:30PM", 10),
@@ -88,14 +98,10 @@ def main():
     st.markdown("🕒 Departure: **08-Mar-2025, 07:30**  ")
     st.markdown("🕒 Arrival: **Mysore** 11:00AM")
     st.markdown("💰 Cost: **₹160**")
-
     
     st.markdown("### 🏛️ Day 5 - 8th March: The Return")
-    coorg_day5_places = [
-        ("Sweet Shops", 0)
-    ]
-    for place, fee in coorg_day5_places:
-        st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
+    st.checkbox("✅ Sweet Shops - Entry Fee: ₹0")
+    
     # Travel Back to Hyderabad
     st.markdown("### 🚆 Travel: Mysore to Hyderabad")
     st.markdown("🚄 **Train 12786 KACHEGUDA EXP**  ")
@@ -103,10 +109,6 @@ def main():
     st.markdown("🕒 Arrival: **09-Mar-2025, 05:40**  ")
     st.markdown("🎟️ Class: **SL**  | 💰 Cost: **₹438**")
     st.markdown("### 📊 [Total Trip Expense Tracker](https://www.kittysplit.com/k/7YGBJEqe4yYoBI36H6CqXeCiibjl1uiY-2)")
-    
-    # Total Estimated Cost
-    total_cost = 1155 + 438 + 160 + 160
-    #st.markdown(f"### 💰 **Total Estimated Travel Cost: ₹{total_cost}**")
-    
+
 if __name__ == "__main__":
     main()
