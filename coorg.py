@@ -44,13 +44,13 @@ def main():
     st.markdown("💰 Cost: **₹160**")
     
     # Day 2
-    st.markdown("### 🌳 Day 2 - 5th March: Coorg Adventure (We arriave at 11:30)")
+    st.markdown("### 🌳 Day 2 - 5th March: Coorg Adventure")
     coorg_day2_places = [
-        ("Madikeri Fort", 0),
-        ("Madikeri Palace", 0),
-        ("Raja’s Tomb", 10),
-        ("Museum", 10),
-        ("Raja Seat (Sunset)", 20)
+        ("Madikeri Fort, 1:30", 0),
+        ("Madikeri Palace 2:30", 0),
+        ("Raja’s Tomb 3:30", 10),
+        ("Museum 4:30", 10),
+        ("Raja Seat (Sunset) 5:30", 20)
     ]
     for place, fee in coorg_day2_places:
         st.checkbox(f"✅ {place} - Entry Fee: ₹{fee}")
