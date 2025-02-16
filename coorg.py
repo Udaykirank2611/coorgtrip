@@ -26,10 +26,8 @@ def main():
         ("Mysore Palace", 100),
         ("Jaganmohan Palace", 20),
         ("St. Philomena’s Church", 0),
-        ("Chamundi Hill", 0),
         ("Sand Museum", 60),
         ("Brindavan Gardens", 50),
-        ("Sweet Shops", 0),
         ("Karanji Lake", 50),
         ("Venugopalaswami Temple", 0)
     ]
@@ -46,6 +44,7 @@ def main():
     # Day 2
     st.markdown("### 🌳 Day 2 - 5th March: Coorg Adventure")
     coorg_day2_places = [
+        ("Chamundi Hill (Sunrise at 6:30AM)", 0),
         ("Madikeri Fort 1:30PM", 0),
         ("Madikeri Palace 2:30PM", 0),
         ("Raja’s Tomb 3:30PM", 10),
@@ -89,7 +88,10 @@ def main():
     st.markdown("🕒 Departure: **08-Mar-2025, 07:30**  ")
     st.markdown("🕒 Arrival: **Mysore**  ")
     st.markdown("💰 Cost: **₹160**")
-    
+    st.markdown("### 🏛️ Day 5 - 8th March: The Return")
+    coorg_day4_places = [
+        ("Sweet Shops", 0)
+    ]
     # Travel Back to Hyderabad
     st.markdown("### 🚆 Travel: Mysore to Hyderabad")
     st.markdown("🚄 **Train 12786 KACHEGUDA EXP**  ")
