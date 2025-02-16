@@ -40,11 +40,11 @@ def main():
     st.markdown("### 🚌 Travel: Mysore to Coorg")
     st.markdown("🚍 **KSRTC Bus (Trip Code: 0829MYSMNG)**  ")
     st.markdown("🕒 Departure: **05-Mar-2025, 08:29**  ")
-    st.markdown("🕒 Arrival: **Mercara Madikeri**  ")
+    st.markdown("🕒 Arrival: **Mercara Madikeri, 11:29**  ")
     st.markdown("💰 Cost: **₹160**")
     
     # Day 2
-    st.markdown("### 🌳 Day 2 - 5th March: Coorg Adventure")
+    st.markdown("### 🌳 Day 2 - 5th March: Coorg Adventure (We arriave at 11:30)")
     coorg_day2_places = [
         ("Madikeri Fort", 0),
         ("Madikeri Palace", 0),
